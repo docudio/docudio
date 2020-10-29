@@ -33,7 +33,7 @@ out an open PR:
 
 ## Documentation
 
-Visit [Docudio.com](http://www.Docudio.com/guide/en/Docudio/current/index.html) for the full Docudio documentation.
+Visit [Docudio.com](http://www.Docudio.com/guide/Docudio/current/index) for the full Docudio documentation.
 
 For information about building the documentation, see the README in [Docudio/docs](https://github.com/Docudio/docs).
 
