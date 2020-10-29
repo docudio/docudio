@@ -10,7 +10,6 @@ Docudio is your documentation studio, for all IT System Related Documentation. S
 
 If you just want to try Docudio out, check out the [Docudio Getting Started Page](https://www.docudio.com/start) to give it a whirl.
 
-If you're interested in diving a bit deeper and getting a taste of Docudio's capabilities, head over to the [Docudio Getting Started Page](https://www.docudio.com/getting-started).
 
 ### Using a Docudio Release
 
