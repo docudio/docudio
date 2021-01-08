@@ -10,6 +10,14 @@ Docudio is your documentation studio, for all IT System Related Documentation. S
 
 If you just want to try Docudio out, check out the [Docudio Getting Started Page](https://www.docudio.com/start) to give it a whirl.
 
+```
+git clone https://github.com/docudio/docudio
+cd docudio
+npm install
+npm run dev
+```
+browse to: http://localhost:3000
+
 
 ### Using a Docudio Release
 
