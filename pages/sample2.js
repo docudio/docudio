@@ -11,9 +11,8 @@ export default function Sample1 () {
   return (
     <div style={{ height: '500px', margin: '50px' }}>
       <ArcherContainer ref={inputEl} strokeColor='red'>
-        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : null}>
+        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : undefined}>
           <div>
-            <div style={rootStyle}>
 
               <ArcherElement
                 id='root'
@@ -28,12 +27,10 @@ export default function Sample1 () {
               >
                 <div style={boxStyle}>System 1</div>
               </ArcherElement>
-            </div>
           </div>
         </Draggable>
         
-        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : null}>
-          <div style={rowStyle}>
+        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : undefined}>
 
             <div>
               <ArcherElement
@@ -50,24 +47,20 @@ export default function Sample1 () {
               >
                 <div style={boxStyle}>System 2</div>
               </ArcherElement>
-            </div>
           </div>
         </Draggable>
 
-        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : null}>
+        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : undefined}>
           <div >
-            <div>
 
               <ArcherElement id='element3'>
                 <div style={boxStyle}>System 3</div>
               </ArcherElement>
-            </div>
           </div>
         </Draggable>
 
-        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : null}>
+        <Draggable onDrag={inputEl.current ? inputEl.current.refreshScreen : undefined}>
           <div style={rootStyle}>
-            <div >
 
               <ArcherElement
                 id='element4'
@@ -82,7 +75,6 @@ export default function Sample1 () {
               >
                 <div style={boxStyle}>System 4</div>
               </ArcherElement>
-            </div>
           </div>
 
         </Draggable>
