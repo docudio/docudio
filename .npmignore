@@ -1,0 +1,8 @@
+.gitlab/
+.github/
+docs/
+docker/
+__tests__/
+ci/
+.vscode/
+jest/
